@@ -1,4 +1,9 @@
 
+open Printf ;;open Scanf ;;
+
+(* Make use of an account database *)
+module DB = Database3 ;; 
+
 type id = int
 
 (* Possible actions that an ATM customer can perform *)
